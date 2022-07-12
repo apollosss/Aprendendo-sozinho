@@ -1,0 +1,58 @@
+Criei uma interface de login, com a senha e usuário já predefinidos, mais futuramente pretendo fazer um sistema de cadastro também.
+
+Código:
+
+namespace WindowsFormsApp2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (userbox.Text == "oi" && senhabox.Text == "1234")
+            {
+                label2.Visible = true;
+            }
+        }
+
+        private void userbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void senhabox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void voltarbotao_Click(object sender, EventArgs e)
+        {
+            userbox.Text = "";
+            senhabox.Text = "";
+            label2.Visible = false;
+        }
+    }
+}
+
+
+Fotos e vídeos:
+
