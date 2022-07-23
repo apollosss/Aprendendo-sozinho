@@ -1,0 +1,45 @@
+Ex. 1:
+
+for (int i = 1; i<=10;i++)
+            {
+                Console.WriteLine(i);
+            }
+
+Ex. 2:
+
+int soma= 0;
+            for (int i = 1; i<=10;i++)
+            {
+                Console.WriteLine(i);
+                soma += i;
+            }
+            Console.WriteLine(soma);
+            Console.ReadLine();
+            
+Ex. 3:
+
+int n = Convert.ToInt32(Console.ReadLine());
+            int soma= 0;
+            for (int i = 1; i<=n;i++)
+            {
+                Console.WriteLine(i);
+                soma += i;
+            }
+            Console.WriteLine(soma);
+            Console.ReadLine();
+            
+Ex. 4: (Pulei sem querer)
+            
+Ex. 5:
+
+
+int n = Convert.ToInt32(Console.ReadLine());
+            int prod= 1;
+            Console.WriteLine("O fatorial de " + n + "é: ");
+            for (int i = n; i>=1;i--)
+            {
+                Console.Write(i+"*");
+                prod *= i;
+            }
+            Console.WriteLine("=" + prod);
+            Console.ReadLine();
