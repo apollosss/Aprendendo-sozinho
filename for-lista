@@ -43,3 +43,16 @@ int n = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("=" + prod);
             Console.ReadLine();
+            
+Ex. 6:
+
+
+int bas= Convert.ToInt32(Console.ReadLine());
+            int exp= Convert.ToInt32(Console.ReadLine());
+            int result = 1;
+            for (int i = 1; i<=exp;i++)
+            {
+                result *= bas;
+            }
+            Console.WriteLine("=" + result);
+            Console.ReadLine();
