@@ -47,7 +47,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 Ex. 6:
 
 
-int bas= Convert.ToInt32(Console.ReadLine());
+            int bas= Convert.ToInt32(Console.ReadLine());
             int exp= Convert.ToInt32(Console.ReadLine());
             int result = 1;
             for (int i = 1; i<=exp;i++)
@@ -56,3 +56,38 @@ int bas= Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("=" + result);
             Console.ReadLine();
+
+
+Ex. 7: 
+
+            double n = Convert.ToDouble(Console.ReadLine()); //4
+            double result;
+            double soma = 0;
+            for (int i = 1; i<=n; i++)
+            {
+                result = i*i;
+                Console.WriteLine(i + "*" + i + " = " + result);
+                soma += result;
+            }
+            Console.WriteLine("Soma é: " + soma);
+            Console.ReadLine();
+            
+Ex. 15:
+
+
+            Console.WriteLine("Entre com uma altura: ");
+            int alt = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Entre com uma largura: ");
+            int larg = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n");
+            for (int i = 1; i<=alt;i++)
+            {
+                for (int j = 1; j <= larg; j++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine("\n");
+            }
+            Console.ReadLine();
+
+            
