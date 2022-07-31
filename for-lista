@@ -72,6 +72,40 @@ Ex. 7:
             Console.WriteLine("Soma é: " + soma);
             Console.ReadLine();
             
+           
+Ex. 8: (Pulamos)
+
+
+Ex. 9:
+
+            double n = Convert.ToDouble(Console.ReadLine());
+            double soma = 0;
+            for (double i = 1; i<=n; i++)
+            {
+                Console.Write("1/{0} ", i);
+                soma += (1 / i);
+            }
+            Console.WriteLine(" = " + soma);
+            Console.ReadLine();
+            
+            
+Ex. 10:
+
+            double n = Convert.ToDouble(Console.ReadLine()); 
+            for (double i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.ReadLine();
+            
+            
+Ex. 11:
+
+
+            
 Ex. 15:
 
 
