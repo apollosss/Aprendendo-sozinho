@@ -73,7 +73,18 @@ Ex. 7:
             Console.ReadLine();
             
            
-Ex. 8: (Pulamos)
+Ex. 8: 
+
+            int guardar = 0;
+            int guardar2 = 0;
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i<=n; i++)
+            {
+                guardar += i;
+                guardar2 += guardar;
+            }
+            Console.WriteLine("A soma da série é: " + guardar2);
+            Console.ReadLine();
 
 
 Ex. 9:
