@@ -135,7 +135,40 @@ Ex. 11:
             else
                 Console.WriteLine("Esse numero não é primo");
 
+Ex. 12: 
 
+            string resp;
+
+            Console.WriteLine("Deseja verificar se o numero é primo?Digite S/N");
+            resp = Console.ReadLine();
+
+            while (resp == "S" || resp == "s")
+            {
+
+                int num;
+                int cont = 0;
+
+                Console.WriteLine("Digite um numero e descubra se ele é primo");
+                num = Convert.ToInt32(Console.ReadLine());
+
+
+                for (int i = 1; i <= num; i++)
+                {
+                    if (num % i == 0)
+                    {
+                        cont++;
+                    }
+                }
+
+                if (cont == 2)
+                    Console.WriteLine("Esse numero é primo.");
+                else
+                    Console.WriteLine("Esse numero não é primo");
+
+                Console.WriteLine("Deseja continuar?");
+                resp = Console.ReadLine();
+   
+   
             
 Ex. 15:
 
@@ -155,4 +188,21 @@ Ex. 15:
             }
             Console.ReadLine();
 
+Ex. 16:
+
+                Console.WriteLine("Entre com um lado");
+                int alt = Convert.ToInt32(Console.ReadLine());
+                int larg = alt;
+                Console.WriteLine("\n");
+                int z = 1;
+                for (int i = 1; i <= alt; i++)
+                {
+                    for (int j = z; j <= larg; j++)
+                    {
+                        Console.Write(j + " ");
+                    }
+                    Console.WriteLine("\n");
+                    z++;
+                }
+                Console.ReadLine();
             
